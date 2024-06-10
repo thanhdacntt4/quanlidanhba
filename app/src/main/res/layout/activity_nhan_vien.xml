@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NhanVienActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edtMaNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã Nhân Viên" />
+
+        <EditText
+            android:id="@+id/edtHoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ Tên" />
+
+        <EditText
+            android:id="@+id/edtChucVu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chức Vụ" />
+
+        <EditText
+            android:id="@+id/edtEmailNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/edtSoDienThoaiNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số Điện Thoại" />
+
+        <EditText
+            android:id="@+id/edtAnhDaiDien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ảnh Đại Diện" />
+
+        <EditText
+            android:id="@+id/edtMaDonVi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã Đơn Vị" />
+
+        <Button
+            android:id="@+id/btnInsertNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/btnUpdateNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật" />
+
+        <Button
+            android:id="@+id/btnDeleteNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xoá" />
+
+        <Button
+            android:id="@+id/btnQueryNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truy vấn" />
+
+        <ListView
+            android:id="@+id/lvNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:dividerHeight="8dp"
+            android:padding="8dp"
+            android:background="@android:color/white"
+            android:clipToPadding="false"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

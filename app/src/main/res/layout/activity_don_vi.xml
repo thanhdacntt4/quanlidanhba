@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtMaDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã đơn vị" />
+
+    <EditText
+        android:id="@+id/edtTenDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đơn vị" />
+
+    <EditText
+        android:id="@+id/edtEmailDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edtWebsiteDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website" />
+
+    <EditText
+        android:id="@+id/edtLogoDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Logo" />
+
+    <EditText
+        android:id="@+id/edtDiaChiDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ" />
+
+    <EditText
+        android:id="@+id/edtSoDienThoaiDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại" />
+
+    <EditText
+        android:id="@+id/edtMaDonViCha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã đơn vị cha" />
+
+    <Button
+        android:id="@+id/btnInsertDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/btnUpdateDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật" />
+
+    <Button
+        android:id="@+id/btnDeleteDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa" />
+
+    <Button
+        android:id="@+id/btnQueryDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truy vấn " />
+
+    <ListView
+        android:id="@+id/lvDonVi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:clipToPadding="false"/>
+
+
+</LinearLayout>
